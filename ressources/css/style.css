@@ -35,12 +35,6 @@ html {
 	margin: 0 auto;
 }
 
-/*-- SECTIONS --*/
-
-section {
-	padding: 80px 0;
-}
-
 /*-- HEADINGS --*/
 
 h1,
@@ -193,4 +187,40 @@ header {
 .main-nav li a:active,
 .main-nav li a:hover{
 	border-bottom: 2px solid #e67e22;
+}
+
+/*-------------------------------------*/
+/* FEATURES */
+/*-------------------------------------*/
+
+
+/*-- SECTIONS --*/
+
+.section-features {
+	padding: 80px 0;
+}
+
+/*-------------------------------------*/
+/* MEALS */
+/*-------------------------------------*/
+
+.meals-showcase {
+	list-style: none;
+	width: 100%;
+}
+
+.meals-showcase li {
+	display: block;
+	width: 25%;
+	float:left;
+}
+
+.meal-photo {
+	width: 100%;
+	margin: 0;
+}
+
+.meal-photo img{
+	width: 100%;
+	height: auto;
 }
