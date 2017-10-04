@@ -91,6 +91,26 @@ section {
 	margin-bottom: 10px;
 }
 
+.little-icon {
+	color: #e67e22;
+	margin-right: 5px
+}
+
+/*-- LINKS --*/
+
+a {
+	color: #e67e22;
+	border-bottom: 1px solid #e67e22;
+	text-decoration: none;
+	padding-bottom: 1px;
+	transition: border-bottom 0.3s, color 0.3s;
+}
+
+a:hover {
+	color: #555;
+	border-bottom: 1px solid transparent;
+}
+
 /*-- BUTTONS --*/
 
 .btn:link,
@@ -242,6 +262,10 @@ header {
 /* HOW IT'S WORK */
 /*-------------------------------------*/
 
+.section-steps {
+	background-color: #f0f0f0;
+}
+
 .steps-box:first-child {
 	padding-right: 3%;
 	text-align: right;
@@ -280,8 +304,30 @@ header {
 	font-size: 150%
 }
 
+.btn-app{
+	border-bottom: none;
+}
+
 .btn-app img{
 	height: 50px;
 	width: auto;
 	margin-right: 10px;
+}
+
+/*-------------------------------------*/
+/* CITIES */
+/*-------------------------------------*/
+
+.box img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.city-feature {
+	margin-bottom: 5px;
+}
+
+.twitter-logo:hover {
+	color: #1dcaff;
 }
